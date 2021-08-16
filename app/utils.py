@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 import pytesseract
 import re
-pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract"
+pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract" #  to set to your own tesseract installation folder
 
 # To do utiliser use NER for detecting fields of interest
 
